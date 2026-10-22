@@ -26,3 +26,7 @@ cd server && java -jar server.jar
 ```bash
 cd velocity && java -jar server.jar
 ```
+
+### 3. **Joining the Server***
+In the ports tab set port 25567 to public and copy its https address
+Then change the https:// to wss:// and thats your ip!

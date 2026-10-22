@@ -2,6 +2,10 @@
 
 This repository contains the configuration for a **Velocity-proxied Minecraft server** with multiple backend servers.
 
+## PLEASE NOTE:
+
+this repository is a 1.21.5 server, I am currently working to get it to 26.2!
+
 ---
 
 # 🚀 Quick Start

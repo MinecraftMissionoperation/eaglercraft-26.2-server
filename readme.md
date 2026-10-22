@@ -1,27 +1,28 @@
-Hello! this is a thing made by wadwdwd (discord) wadwdwd1 on github!
+# Minecraft Server Setup (v1.21.5)
+
+This repository contains the configuration for a **Velocity-proxied Minecraft server** with multiple backend servers.
+
+---
+
+## 🚀 Quick Start
+
+### 1. **Open Three Terminals**
+You need to run three separate servers: `limbo`, `server`, and `velocity`.
+
+### 2. **Start Each Server**
+In each terminal, navigate to the respective directory and start the server:
 
 
-for questions/support
-join 
-https://discord.gg/jUmqKWnQKg
-
-
-STEPS TO MAKE A SERVER!!!!!
-
-1. create 3 new terminals
-Paste this in the first one
-
+# Terminal 1: Limbo Server
+```bash
 cd limbo && java -jar server.jar
-
-Paste this in the second
-
+```
+# Terminal 2: Main Server
+```bash
 cd server && java -jar server.jar
+```
 
-paste this in the 3rd
-
+# Terminal 3: Velocity Proxy
+```bash
 cd velocity && java -jar server.jar
-
-Then go to ports, and set the visibilty of 25567 to public.
-ENJOY!
-
-Note the server is on the direct ip
+```
